@@ -1,0 +1,40 @@
+.marketplace-container {
+  margin: 5rem auto;
+}
+
+.marketplace-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.marketplace-controls input,
+.marketplace-controls select {
+  padding: 1rem 1.5rem;
+  background: #333;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+
+.marketplace-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.marketplace-item {
+  background: #333;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.marketplace-item h3 {
+  color: #fff;
+}
+
+.marketplace-item span {
+  font-weight: bold;
+  color: #4e92e0;
+}

@@ -1,0 +1,125 @@
+.wallet-container {
+  text-align: left;
+  color: white;
+}
+
+.balance-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 3rem 7rem;
+  border-radius: 10px;
+}
+
+.balance-label {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.balance-value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4e92e0;
+  margin-top: 1rem;
+}
+
+.tokens-section {
+  margin-top: 2rem;
+  background-color: #333;
+  padding: 3rem 7rem;
+  border-radius: 10px;
+}
+
+.tokens-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.token-card {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.token-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.token-text p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.token-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.transactions-section {
+  margin-top: 2rem;
+  background-color: #333;
+  padding: 3rem 7rem;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 8px;
+  border-bottom: 1px solid #444;
+}
+
+.transactions-table th {
+  background: #222;
+}
+
+.status-completed {
+  color: #28a745;
+}
+
+.status-pending {
+  color: #ffc107;
+}
+
+.wallet-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.wallet-action {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.send {
+  background: #d9534f;
+  color: white;
+}
+
+.receive {
+  background: #5bc0de;
+  color: white;
+}
+
+.wallet-action:hover {
+  opacity: 0.8;
+}

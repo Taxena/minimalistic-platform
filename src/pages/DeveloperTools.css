@@ -1,0 +1,61 @@
+.dev-tools-container {
+  margin: 5rem auto;
+  /* padding: 20px; */
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tabs button {
+  background: none;
+  border: 1px solid #555;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.tabs button.active {
+  background-color: #4e92e0;
+  border-color: #4e92e0;
+}
+
+.tabs button:hover {
+  background-color: #005f88;
+  border-color: #005f88;
+}
+
+.content-card {
+  background-color: #333;
+  padding: 5rem;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.content-card h2 {
+  color: #00aaff;
+}
+
+.content-card ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.content-card ul li {
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.content-card p {
+  line-height: 1.5rem;
+}

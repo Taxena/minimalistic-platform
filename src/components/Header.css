@@ -1,0 +1,158 @@
+/* .hero-section {
+  position: relative;
+  height: 80vh;
+  background-image: url("herobanner.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.6);
+}
+
+.hero-content {
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ */
+
+.hero-section {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0rem 10rem; */
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.hero-content {
+  max-width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text p {
+  margin-bottom: 3rem;
+  color: #c9d1d9;
+}
+
+.button-group {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+/* .hero-button {
+  padding: 15px 30px;
+  background: linear-gradient(to bottom right, #20bdff, #5433ff);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.hero-button:hover {
+  background: (to bottom right, #5433ff, #20bdff);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.hero-button-secondary {
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.hero-button-secondary:hover {
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+  color: #1e1e1e;
+} */
+
+.banner-image {
+  width: 30rem;
+  height: 30rem;
+  background-color: #1d2025;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #58a6ff;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.hero-button {
+  padding: 15px 30px;
+  background-color: #4e92e0;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #356cb3;
+}
+
+.hero-button-secondary {
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-button-secondary:hover {
+  background-color: white;
+  color: #1e1e1e;
+}
