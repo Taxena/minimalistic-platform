@@ -27,6 +27,10 @@ const Marketplace = () => {
     .filter(item => category === "All" || item.category === category)
     .filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
 
+  const handleBuyClick = (item) => {
+    alert(`You have purchased ${item.name} for ${item.price}!`);
+  };
+
   return (
     <div className="marketplace-container">
       <h1>MARKETPLACE</h1>
@@ -58,7 +62,10 @@ const Marketplace = () => {
             <div key={item.id} className="marketplace-item">
               <h3>{item.name}</h3>
               <p>{item.info}</p>
-              <span>{item.price}</span>
+              <p>{item.price}</p>
+              <button className="buy-button" onClick={() => handleBuyClick(item)}>
+                Buy Now
+              </button>
             </div>
           ))
         ) : (
