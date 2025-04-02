@@ -2,6 +2,10 @@ import React from 'react';
 import './TokenCard.css';
 
 const TokenCard = ({ name, symbol, value, logo, description }) => {
+  const handleBuyClick = (e) => {
+    e.stopPropagation();
+    alert(`You have purchased ${name} for ${value}!`);
+  };
   return (
     <div className="token-card">
       <div className="token-card-header">
@@ -15,6 +19,7 @@ const TokenCard = ({ name, symbol, value, logo, description }) => {
         <p className="token-card-value">{value}</p>
         {description && <p className="token-card-description">{description}</p>}
       </div>
+      <button className="buy-button" onClick={handleBuyClick}>Buy Now</button>
     </div>
   );
 };

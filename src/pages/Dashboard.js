@@ -88,7 +88,7 @@ const Dashboard = () => {
           <div className="block-top">
             <h2 className="dashboard-title">Featured NFTs</h2>
             <button className="more-button">
-              <Link to="/staking" className="more-button-link">
+              <Link to="/marketplace" className="more-button-link">
                 VIEW MORE
               </Link>
             </button>
